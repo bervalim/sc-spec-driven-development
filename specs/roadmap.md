@@ -6,7 +6,7 @@ do not start a phase until the previous one is done.
 
 ## Foundation
 
-- [ ] **0.1 Runnable server**: add Fastify, `npm run dev` and `npm start`. *Done when* `GET /health` returns `{ "status": "ok" }`.
+- [x] **0.1 Runnable server**: add Fastify, `npm run dev` and `npm start`. *Done when* `GET /health` returns `{ "status": "ok" }`.
 - [ ] **0.2 First page**: add Nunjucks and a base layout. *Done when* `GET /` renders a "Welcome to AgentClinic" page.
 - [ ] **0.3 Styling pipeline**: add Tailwind and a build step. *Done when* the home page uses Tailwind classes.
 - [ ] **0.4 Test harness**: add Vitest and one `inject()` test. *Done when* `npm test` passes.
