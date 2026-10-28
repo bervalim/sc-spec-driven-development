@@ -1,0 +1,49 @@
+:root {
+  --color-bg: #f7f9fb;
+  --color-text: #1f2933;
+  --color-accent: #0b7285;
+  --color-surface: #ffffff;
+  --color-border: #d9e2ec;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui, sans-serif;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+.site-header {
+  padding: 1rem 1.5rem;
+  background: var(--color-accent);
+}
+
+.site-header__brand {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.site-main {
+  flex: 1;
+  width: 100%;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.site-footer {
+  padding: 1rem 1.5rem;
+  text-align: center;
+  font-size: 0.875rem;
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+}
